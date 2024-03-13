@@ -15,7 +15,14 @@ function Footer() {
     <Container fluid className="footer">
       <Row>
         <Col md="4" className="footer-copywright">
-          <h3>Developed by KasWare team</h3>
+          <a
+            href="https://docs.kasware.xyz/wallet/private-policy"
+            style={{ color: "white" }}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <h3>Privacy Policy</h3>
+          </a >
         </Col>
         <Col md="4" className="footer-copywright">
           <h3>Copyright © {year} KASWRE</h3>
