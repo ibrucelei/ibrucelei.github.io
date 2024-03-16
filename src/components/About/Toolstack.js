@@ -6,7 +6,7 @@ function Toolstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <a href="https://github.com/kasware-wallet/releases" style={{ color: "white" }} target="_blank" rel="noopener noreferrer">
+        <a href="https://github.com/kasware-wallet/extension" style={{ color: "white" }} target="_blank" rel="noopener noreferrer">
           <SiGithub />
         </a>
       </Col>
