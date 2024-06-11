@@ -8,7 +8,7 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p className="home-about-body">
-            KasWare is the first &nbsp;
+            KasWare Wallet is the first &nbsp;
             <i>
               <b className="purple">open source </b>
             </i>&nbsp;
@@ -37,10 +37,10 @@ function AboutCard() {
             wallet. Your accounts are derived from your Secret Recovery Phrase.
             <br />
             <br />
-            Your private keys are &nbsp;
+            Private keys are &nbsp;
             <i>
-              <b className="purple">encrypted on your device by your password </b> &nbsp; and and are never shared with
-              anyone.Your accounts are derived from your Secret Recovery Phrase.{" "}
+              <b className="purple">encrypted on your device by your password </b> &nbsp; and is not shared with
+              anyone. Accounts are derived from your Secret Recovery Phrase.{" "}
             </i>
             <br />
             KasWare Wallet doesnot track any personal identifiable information, your account addresses, or asset
@@ -48,12 +48,7 @@ function AboutCard() {
             <br />
             <br />
             Users can import accounts from single private keys. These accounts are not derived from your Secret Recovery
-            Phrase and will be labelled as “imported”.
-            <br />
-            <br />
-            KasWare Wallet is a non-custodial wallet. We never have access to
-            your funds.
-            <br />
+            Phrase and will be labelled as "imported".
             <br />
           </p>
         </blockquote>
