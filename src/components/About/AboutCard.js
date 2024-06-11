@@ -39,8 +39,8 @@ function AboutCard() {
             <br />
             Your private keys are &nbsp;
             <i>
-              <b className="purple">encrypted on your device by your password </b> &nbsp; and and are never shared with
-              anyone.Your accounts are derived from your Secret Recovery Phrase.{" "}
+              <b className="purple">encrypted on your device by your password </b> &nbsp; and is not shared with
+              anyone. Accounts are derived from your Secret Recovery Phrase.{" "}
             </i>
             <br />
             KasWare Wallet doesnot track any personal identifiable information, your account addresses, or asset
