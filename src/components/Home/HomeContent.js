@@ -27,7 +27,7 @@ function HomeContent() {
               Your private keys are &nbsp;
               <i>
                 <b className="purple">encrypted on your device by your password </b> and
-                is not shared with anyone. Accounts are derived from your Secret Recovery Phrase. Do not share your Recovery Phrase with anyone.{" "}
+                and are never shared with anyone.Your accounts are derived from your Secret Recovery Phrase.{" "}
               </i>
               <br />
               <br />
