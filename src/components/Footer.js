@@ -56,7 +56,7 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://github.com/kasware-wallet/extension"
+                href={"https://github.com/kasware-wallet/extension"+timestamp}
                 style={{ color: "white" }}
                 target="_blank"
                 rel="noopener noreferrer"
