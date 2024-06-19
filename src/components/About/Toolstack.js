@@ -3,9 +3,7 @@ import { Col, Row } from "react-bootstrap";
 import { SiGithub, SiGooglechrome, SiBrave } from "react-icons/si";
 
 function Toolstack() {
-    let date = new Date();
   let timestamp = '?v=' + new Date().getTime();
-  let year = date.getFullYear();
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
