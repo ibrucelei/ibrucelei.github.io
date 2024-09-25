@@ -602,6 +602,23 @@ button:focus {
   line-height: 1.6 !important;
 }
 
+.main-icons {
+  font-size: 4.5em !important;
+  opacity: 0.93 !important;
+  vertical-align: middle !important;
+  text-align: center !important;
+  border-radius: 5px !important;
+  display: table !important;
+  box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.137) !important;
+  overflow: hidden !important;
+  transition: all 0.4s ease 0s !important;
+}
+
+.main-icon-images {
+  /* padding: 20px !important; */
+  line-height: 1.6 !important;
+}
+
 .quote-card-view {
   border: none !important;
   color: white !important;
