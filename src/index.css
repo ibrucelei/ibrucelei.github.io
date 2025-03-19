@@ -6,3 +6,19 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-image: linear-gradient(to left, rgb(27 20 41), rgb(20 15 35));
 }
+.custom-table {
+  background-color: transparent;
+  border: none;
+  /* table-layout: auto; */
+  /* width: 100%; */
+  width: auto;
+  justify-content: center;
+  display: flex;
+}
+
+.custom-table > tbody > tr > td,
+.custom-table > tbody > tr > th {
+  background-color: transparent;
+  border: none;
+  padding: 0.5rem; 
+}

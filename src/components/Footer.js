@@ -10,7 +10,7 @@ import { FaDiscord, FaTelegram } from "react-icons/fa";
 
 function Footer() {
   let date = new Date();
-  let timestamp = '?v=' + new Date().getTime();
+  let timestamp = "?v=" + new Date().getTime();
   let year = date.getFullYear();
   return (
     <Container fluid className="footer">
@@ -23,10 +23,10 @@ function Footer() {
             rel="noopener noreferrer"
           >
             <h3>Privacy Policy</h3>
-          </a >
+          </a>
         </Col>
         <Col md="4" className="footer-copywright">
-          <h3>Copyright © {year} KASWARE</h3>
+          <h3>Copyright © {year} Flying Rabbit Tech Ltd</h3>
         </Col>
         <Col md="4" className="footer-body">
           <ul className="footer-icons">
@@ -37,22 +37,18 @@ function Footer() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-
                 <FaDiscord />
               </a>
-
             </li>
             <li className="social-icons">
               <a
-                href={"https://t.me/+eBTwLzz_BcwwMmE1" + timestamp}
+                href={"https://t.me/KasWare_Wallet" + timestamp}
                 style={{ color: "white" }}
                 target="_blank"
                 rel="noopener noreferrer"
               >
-
                 <FaTelegram />
               </a>
-
             </li>
             <li className="social-icons">
               <a

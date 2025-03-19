@@ -9,17 +9,14 @@ function About() {
       <Particle />
       <Container>
         <Row style={{ justifyContent: "center", padding: "10px" }}>
-          <Col style={{
+          {/* <Col style={{
             justifyContent: "center",
             paddingTop: "30px",
             paddingBottom: "50px",
           }}
-          >
-            <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
-              About <strong className="purple">KasWare</strong> Wallet
-            </h1>
-            <Aboutcard />
-          </Col>
+          > */}
+          <Aboutcard />
+          {/* </Col> */}
         </Row>
       </Container>
     </Container>

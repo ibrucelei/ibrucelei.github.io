@@ -7,7 +7,7 @@ import Type from "./Type";
 import Image from "react-bootstrap/Image";
 
 function Home() {
-  const timestamp = useMemo(() => '?v=' + new Date().getTime(), []);
+  const timestamp = useMemo(() => "?v=" + new Date().getTime(), []);
   return (
     <section>
       {/* <Container fluid className="home-section" id="home"> */}
@@ -32,7 +32,15 @@ function Home() {
             </div>
           </Col>
           <Col md={5} style={{ paddingBottom: 20 }} className="main-icons">
-            <a href={"https://chromewebstore.google.com/detail/kasware-wallet/hklhheigdmpoolooomdihmhlpjjdbklf" + timestamp} style={{ color: "white" }} target="_blank" rel="noopener noreferrer">
+            <a
+              href={
+                "https://chromewebstore.google.com/detail/kasware-wallet/hklhheigdmpoolooomdihmhlpjjdbklf" +
+                timestamp
+              }
+              style={{ color: "white" }}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Image
                 src={homeLogo}
                 alt="home pic"
